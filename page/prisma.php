@@ -16,21 +16,21 @@
         <div class="flex w-full gap-20 justify-center items-center">
             <div class="mb-4">
               <label for="alas" class="block font-medium mb-2">Masukkan Jumlah Sisi Tegak (cm)</label>
-              <input type="text" name="sisi-tegak" class="block w-full p-2 border border-gray-300 rounded-md">
+              <input type="text" name="sisi-tegak" required="true" class="block w-full p-2 border border-gray-300 rounded-md">
             </div>
             <div class="mb-4">
               <label for="alas" class="block font-medium mb-2">Keliling Alas (cm)</label>
-              <input type="text" name="keliling-alas" class="block w-full p-2 border border-gray-300 rounded-md">
+              <input type="text" name="keliling-alas" required="true" class="block w-full p-2 border border-gray-300 rounded-md">
             </div>
         </div>
         <div class="flex w-full gap-28 justify-center items-center">
             <div class="mb-4">
               <label for="alas" class="block font-medium mb-2 mr-0">Masukkan Luas Alas (cm)</label>
-              <input type="text" name="luas-alas" class="block w-full p-2 border border-gray-300 rounded-md">
+              <input type="text" name="luas-alas" required="true" class="block w-full p-2 border border-gray-300 rounded-md">
             </div>
             <div class="mb-4">
               <label for="alas" class="block font-medium mb-2 ml-3">Masukkan Tinggi Prisma (cm)</label>
-              <input type="text" name="tinggi-prisma" class="block w-full ml-3 p-2 border border-gray-300 rounded-md">
+              <input type="text" name="tinggi-prisma" required="true" class="block w-full ml-3 p-2 border border-gray-300 rounded-md">
             </div>
         </div>
         <div class="d-flex justify-beetwen item w-full">

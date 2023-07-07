@@ -11,7 +11,7 @@
 
 <body class="bg-gray-400">
     <div class="flex justify-center items-center h-screen">
-        <form action="/routes.php" method="post" class="w-1/3 h-auto bg-white p-10 rounded-lg shadow-md">
+        <form action="./routes.php" method="post" class="w-1/3 h-auto bg-white p-10 rounded-lg shadow-md">
             <label class="block text-gray-700 text-center font-bold mb-2" for="me">Pilih Bangun Ruang</label>
             <div class="relative mt-8">
                 <select class="block appearance-none text-center w-full border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline" name="pilih" id="pilih">
